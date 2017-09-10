@@ -1,0 +1,48 @@
+html {
+    font-size: 24px;
+    color: #0f0f0f;
+    font-family: "Lato", sans-serif; /* Google Fonts is cool! */
+    background: whitesmoke;
+}
+
+/* Centreer alle h1 en h2 elementen */
+h1,
+h2 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+h1 {
+    font-size: 2.4em;
+    text-transform: uppercase;
+    color: #ed1576;
+}
+
+h2 {
+    font-size: 3.2em;
+    font-style: italic;
+    color: #4c4c4c;
+    text-transform: capitalize;
+}
+
+p {
+    text-indent: 2em;
+    line-height: 1.5em;
+}
+
+a {
+    color: #c12c56;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #bf7489;
+}
+
+.background {
+    background: url("../img/background-tile.gif") repeat fixed;
+}
