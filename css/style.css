@@ -46,3 +46,43 @@ a:hover {
 .background {
     background: url("../img/background-tile.gif") repeat fixed;
 }
+
+.numbers-table {
+    border-collapse: separate;
+    border-spacing: 8px;
+    border: 2px solid black;
+}
+
+.numbers-table > tbody > tr > th:first-of-type {
+    border-right: 1px solid black;
+    padding-right: 8px;
+}
+
+.numbers-table > tbody > tr:first-of-type > th {
+    border-bottom: 1px solid black;
+}
+
+.numbers-table > tbody > tr:first-of-type > th:first-of-type {
+    border: none;
+}
+
+.numbers-table,
+.achtergrondje,
+.definitielijstje {
+    display: inline-block;
+}
+
+/*.achtergrondje {
+    float: right;
+}*/
+
+.achtergrondje > li > ul > li {
+    color: #fff;
+    background: url("../img/achtergrondje.jpg") no-repeat;
+    background-size: 380px auto;
+}
+
+.definitielijstje > dd {
+    font-style: italic;
+    color: #4c4c4c;
+}
