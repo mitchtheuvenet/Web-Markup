@@ -72,9 +72,10 @@ a:hover {
     display: inline-block;
 }
 
-/*.achtergrondje {
-    float: right;
-}*/
+.achtergrondje {
+    /*float: right;*/
+    list-style-type: none;
+}
 
 .achtergrondje > li > ul > li {
     color: #fff;
